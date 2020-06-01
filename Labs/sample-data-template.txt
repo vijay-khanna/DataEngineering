@@ -29,8 +29,8 @@
 "campaign": "{{random.arrayElement(
 ["BlackFriday","10Percent","NONE"]
 )}}",
- "paymentStatus": "{{random.arrayElement(
-        ["Paid","FAIL","CouponFree"]
+ "paymentMethod": "{{random.arrayElement(
+        ["Cash","Card","Coupon","NetBanking","UPI","BankTransfer"]
     )}}",
 
 
