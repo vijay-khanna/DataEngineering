@@ -1,6 +1,8 @@
 {
 "destinationCountryName" : "{{address.country}}",
 "destinationCountryCode" : "{{address.countryCode}}",
+"lat" : "{{address.latitude}}",
+"long" : "{{address.longitude}}",
 "customerType" : "{{hacker.adjective}}",
 "productName" : "{{commerce.productName}}",
 "color" : "{{commerce.color}}",
