@@ -31,7 +31,7 @@
 )}}",
  "paymentMethod": "{{random.arrayElement(
         ["Cash","Card","Coupon","NetBanking","UPI","BankTransfer"]
-    )}}",
+    )}}"
 
 
 
