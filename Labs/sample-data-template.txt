@@ -1,0 +1,36 @@
+{
+"destinationCountryName" : "{{address.country}}",
+"destinationCountryCode" : "{{address.countryCode}}",
+"customerType" : "{{hacker.adjective}}",
+"productName" : "{{commerce.productName}}",
+"color" : "{{commerce.color}}",
+"firstName" : "{{name.firstName}}",
+"lastName" : "{{name.lastName}}",
+"machineIP" : "{{internet.ip}}",
+"department" : "{{commerce.department}}",
+"product" : "{{commerce.product}}",
+"imageUrl": "{{image.imageUrl}}",
+"purchaseDate": "{{date.now}}",
+"customerCategory": "{{random.weightedArrayElement(
+  {
+    "weights": [0.3,0.2,0.5],
+    "data": ["Gold","Silver","Platinum"]
+  }
+)}}",
+
+"price": {{random.number(
+{
+"min":10,
+"max":150
+}
+)}},
+"campaign": "{{random.arrayElement(
+["BlackFriday","10Percent","NONE"]
+)}}",
+ "paymentStatus": "{{random.arrayElement(
+        ["Paid","FAIL","CouponFree"]
+    )}}",
+
+
+
+}
