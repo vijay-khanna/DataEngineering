@@ -1,6 +1,19 @@
 # Lab : Generating Data, Sending it to Kinesis Firehose
 
-We will be using AWS EKS for this demo. Login with an Administrator equivalent user to AWS console.
+We will be using AWS Cognito to Create a user for this demo. Login with an Administrator equivalent user to AWS console.
+Use the Amazon-Kinesis-Data-Denerator to be able to pump data to Kinesis
+
+```
+### https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
+
+Launch the CloudFormation Template at 
+https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=Kinesis-Data-Generator-Cognito-User&templateURL=https://aws-kdg-tools.s3.us-west-2.amazonaws.com/cognito-setup.json
+
+```
+
+
+
+
 
 ### Deploy Cloud9 IDE:
 This lab documentation is made for N.Virginia region (us-east-1). Please make note of this, and change accordingly for your deployment.
