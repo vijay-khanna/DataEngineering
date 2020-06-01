@@ -11,6 +11,8 @@ Launch the CloudFormation Template using below Link. This will launch it in us-e
 https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Kinesis-Data-Generator-Cognito-User&templateURL=https://aws-kdg-tools.s3.us-west-2.amazonaws.com/cognito-setup.json
 
 ## Specify the Template Name, UserName and Password (Only Aplha-Neumeric)
+
+Select output tab of the CloudFormation Stack, which contains a URL generated for your KDG
 ```
 
 
