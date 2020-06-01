@@ -6,8 +6,9 @@ https://awslabs.github.io/amazon-kinesis-data-generator/web/help.html
 
 ```
 ### 
-Launch the CloudFormation Template at 
-https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=Kinesis-Data-Generator-Cognito-User&templateURL=https://aws-kdg-tools.s3.us-west-2.amazonaws.com/cognito-setup.json
+Launch the CloudFormation Template using below Link. This will launch it in us-east-1 region.
+
+https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Kinesis-Data-Generator-Cognito-User&templateURL=https://aws-kdg-tools.s3.us-west-2.amazonaws.com/cognito-setup.json
 
 ```
 
