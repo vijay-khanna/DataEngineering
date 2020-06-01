@@ -1,8 +1,8 @@
 {
 "destinationCountryName" : "{{address.country}}",
 "destinationCountryCode" : "{{address.countryCode}}",
-"lat" : "{{address.latitude}}",
-"long" : "{{address.longitude}}",
+"latitude" : "{{address.latitude}}",
+"longitude" : "{{address.longitude}}",
 "customerType" : "{{hacker.adjective}}",
 "productName" : "{{commerce.productName}}",
 "color" : "{{commerce.color}}",
@@ -22,17 +22,15 @@
 
 "price": {{random.number(
 {
-"min":10,
-"max":150
+"min":151,
+"max":500
 }
 )}},
 "campaign": "{{random.arrayElement(
-["BlackFriday","10Percent","NONE"]
+["BigBillion","DiwaliDhamaka","SuperHoli"]
 )}}",
  "paymentMethod": "{{random.arrayElement(
         ["Cash","Card","Coupon","NetBanking","UPI","BankTransfer"]
     )}}"
-
-
 
 }
