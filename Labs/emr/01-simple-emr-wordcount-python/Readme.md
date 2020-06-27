@@ -1,4 +1,6 @@
-# Lab : Simple Python WordCount on EMR cluster Ver 5.30.0
+# Lab : Simple Python WordCount on EMR cluster Ver 5.30.0. 
+This demo is coded for us-east-1 N.Virginia Region
+
 
 ### Deploy Cloud9 IDE:
 This lab documentation is made for N.Virginia region (us-east-1). Please make note of this, and change accordingly for your deployment.
@@ -22,8 +24,6 @@ Create a **new environment** e.g. "Cloud9 Lab - Containerized Nodejs application
 >#Actions => Instance Settings => Attach/Replace IAM Role => Select **Admin-Role_for_Cloud9_Instance** => Apply<br/>
 
 >#**In Cloud9 console => Preferences(Gear Icon on Upper Right Corner) => AWS Settings => Disable "AWS Managed Temporary Credentials. Slide the Grey button to cover Green area. Green area should not be visible** :relaxed:  <br/>
-
-
 
 
 
