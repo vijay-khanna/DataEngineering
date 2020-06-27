@@ -26,32 +26,16 @@ Create a **new environment** e.g. "Cloud9 Lab - Containerized Nodejs application
 >#**In Cloud9 console => Preferences(Gear Icon on Upper Right Corner) => AWS Settings => Disable "AWS Managed Temporary Credentials. Slide the Grey button to cover Green area. Green area should not be visible** :relaxed:  <br/>
 
 
-
-
 * **Launch the Cloudformation Template to create a EMR Cluster**
 ```
+Download the CloudFormation Template to local system, Edit if required to change the Hadoop packages.
 
+wget https://raw.githubusercontent.com/vijay-khanna/DataEngineering/master/Labs/reference/cfn_templates/EMR_Custom_Cluster_cloudformation_template_nofill.txt
 
-
-https://raw.githubusercontent.com/vijay-khanna/DataEngineering/master/Labs/reference/cfn_templates/EMR_Custom_Cluster_cloudformation_template_nofill.txt
-
-
-
-
+Create the Stack, Specify the parameters as subnet, additional security etc.
+https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template
 ```
 
-* **Capture Cluster Unique Name. This Name will be used to create a ssh key pair as well:**
-```
-
-
-
-read -p "Enter a unique EMR cluster Name : " EMS_CLUSTER_NAME ; 
-echo -e "\n * * \e[106m ...EMR Cluster Name to be used is... : "$EMR_CLUSTER_NAME"\e[0m \n"
-
-
-
-
-```
 
 
 
