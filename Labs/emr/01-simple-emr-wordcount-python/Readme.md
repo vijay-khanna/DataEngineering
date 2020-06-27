@@ -1,17 +1,6 @@
 # Lab : Executing a Simple Python wordcount on EMR cluster Version 5.30.0
 
 
-```
-### 
-Launch the CloudFormation Template using below Link. This will launch it in us-east-1 region.
-
-https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/template?stackName=Kinesis-Data-Generator-Cognito-User&templateURL=https://aws-kdg-tools.s3.us-west-2.amazonaws.com/cognito-setup.json
-
-## Specify the Template Name, UserName and Password (Only Aplha-Neumeric)
-
-Select output tab of the CloudFormation Stack, which contains a URL generated for your KDG
-```
-
 
 ### Deploy Cloud9 IDE:
 This lab documentation is made for N.Virginia region (us-east-1). Please make note of this, and change accordingly for your deployment.
@@ -39,7 +28,9 @@ Create a **new environment** e.g. "Cloud9 Lab - Containerized Nodejs application
 
 * **Capture Cluster Unique Name. This Name will be used to create a ssh key pair as well:**
 ```
-read -p "Enter a unique EKS cluster Name : " EKS_CLUSTER_NAME ; 
-echo -e "\n * * \e[106m ...EKS Cluster Name to be used is... : "$EKS_CLUSTER_NAME"\e[0m \n"
+read -p "Enter a unique EMR cluster Name : " EKS_CLUSTER_NAME ; 
+echo -e "\n * * \e[106m ...EMR Cluster Name to be used is... : "$EMR_CLUSTER_NAME"\e[0m \n"
 
 ```
+
+
