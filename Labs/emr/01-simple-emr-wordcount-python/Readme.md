@@ -1,6 +1,4 @@
-# Lab : Executing a Simple Python wordcount on EMR cluster Version 5.30.0
-
-
+# Lab : Simple Python WordCount on EMR cluster Ver 5.30.0
 
 ### Deploy Cloud9 IDE:
 This lab documentation is made for N.Virginia region (us-east-1). Please make note of this, and change accordingly for your deployment.
@@ -32,5 +30,8 @@ read -p "Enter a unique EMR cluster Name : " EKS_CLUSTER_NAME ;
 echo -e "\n * * \e[106m ...EMR Cluster Name to be used is... : "$EMR_CLUSTER_NAME"\e[0m \n"
 
 ```
+
+
+
 
 
